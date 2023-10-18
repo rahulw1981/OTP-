@@ -1,9 +1,10 @@
+
 import smtplib
 import random
 from twilio.rest import Client
 
 account_sid = 'ACf4f7f6195d9a802477e8f551eff6b45d'
-auth_token = '4c31b59806e2ef719a24d46ffebbfdbe'
+auth_token = '3a8bee5b077481d4a81afa6634c2bb5a'
 client = Client(account_sid, auth_token)
 twilio_num = '+14706169780'
 target = '+919004244603'
